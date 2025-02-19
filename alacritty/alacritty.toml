@@ -1,0 +1,28 @@
+import = ["~/.config/alacritty/alacritty-theme/themes/github_dark.toml"]
+live_config_reload = true
+
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+#normal = { family = "JetbrainsMono NF", style = "SemiBold" }
+normal = { family = "Dank Mono", style = "Italic" }
+size = 16
+
+[window]
+dimensions = { columns = 120, lines = 30 }
+padding.x = 15
+padding.y = 15
+opacity = 0.8
+decorations = "Full"
+position = { y = 130, x = 130 }
+startup_mode = "Windowed"
+dynamic_padding = true
+
+[bell]
+animation = "Linear"
+color = "#ffffff"
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
